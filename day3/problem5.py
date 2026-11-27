@@ -1,8 +1,7 @@
 def times_table(n):
     result = []
-
+    row = []
     for i in range(n):
-        row = []
 
         for j in range(n):
             row.append((i + 1) * (j + 1))

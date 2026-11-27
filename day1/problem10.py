@@ -1,16 +1,10 @@
 def find_pair(num, target):
 
     for i in range(len(num)):
-        if num[i]  :
-            print(num[i])
-            
-
-        #   a =  i + j 
-        #   print(a)
-
-
-
-
+        for j in range(i + 1 , len(num)):
+           if num[i] + num[j] == target:
+               return i, j
+        
 
 
 
